@@ -105,6 +105,9 @@ h3 { font-family: var(--display); font-weight: 700; font-size: 22px; letter-spac
 .grid2 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .card { border: 1px solid var(--line); border-radius: 14px; padding: 28px; background: var(--panel); display: flex; flex-direction: column; }
 .card .tags { margin-top: auto; }
+.card .links { display: flex; gap: 14px; flex-wrap: wrap; margin: 4px 0 16px; font-size: 14px; }
+.card .links a { font-weight: 600; }
+.metric { font-family: var(--mono); font-size: 13px; color: var(--ink, inherit); background: color-mix(in srgb, var(--copper) 10%, transparent); border-radius: 6px; padding: 6px 10px; margin: 0 0 14px; }
 
 /* skills */
 .skills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0; border-top: 1px solid var(--line); }
@@ -154,6 +157,7 @@ footer { padding: 28px 0 40px; font-family: var(--mono); font-size: 12px; color:
   <div class="wrap">
     <div class="mark"><b>ayush.anand</b> ~/portfolio</div>
     <ul>
+      <li><a href="#analytics">Analytics</a></li>
       <li><a href="#work">Work</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#education">Education</a></li>
@@ -169,7 +173,7 @@ footer { padding: 28px 0 40px; font-family: var(--mono); font-size: 12px; color:
       <h1>Hi, I'm Ayush. I build things that <em>work end to end.</em></h1>
       <p class="lede">MCA student at C-DAC Noida. I take projects from raw data to something people can use: analysing datasets, training and testing models, and shipping apps that run even without the internet.</p>
       <div class="cta">
-        <a class="btn primary" href="#work">See my projects</a>
+        <a class="btn primary" href="#analytics">See my projects</a>
         <a class="btn" href="https://github.com/anand-ayush14">GitHub</a>
         <a class="btn" href="https://www.linkedin.com/in/ayush-anand-682145409/">LinkedIn</a>
       </div>
@@ -194,6 +198,39 @@ footer { padding: 28px 0 40px; font-family: var(--mono); font-size: 12px; color:
     <div><b>1st</b><span>IUJ Science Day Hackathon 2024</span></div>
     <div><b>8.46</b><span>MCA CGPA, Semester 1</span></div>
   </div>
+
+  <section id="analytics">
+    <div class="sec-head"><h2>Data analytics projects</h2><code>SQL · Python · ML · dashboards</code></div>
+    <div class="grid2">
+      <article class="card">
+        <div class="kicker">Credit risk · Card issuer</div>
+        <h3>Credit card default risk</h3>
+        <p>Which card holders will miss next month's payment, and how should the issuer act before it becomes a loss?</p>
+        <div class="metric">Top 10% risk tier: 69.9% default vs 22.1% base</div>
+        <ul><li>8 SQL queries (CASE bands, RANK, window functions) on 30,000 card holders.</li><li>Gradient Boosting ranks customers into risk tiers. Logistic Regression explains the drivers, and demographics are excluded for fair lending.</li></ul>
+        <div class="links"><a href="projects/credit-risk/">Live dashboard →</a><a href="https://github.com/anand-ayush14/anand-ayush14.github.io/tree/main/projects/credit-risk">SQL &amp; code →</a></div>
+        <div class="tags"><span>SQL</span><span>Gradient Boosting</span><span>Logistic Regression</span><span>Risk tiers</span></div>
+      </article>
+      <article class="card">
+        <div class="kicker">Fraud analytics · Payments</div>
+        <h3>Card transaction fraud detection</h3>
+        <p>Fraud is 0.17% of transactions. Which ones should analysts review first, and what does a fixed review budget stop?</p>
+        <div class="metric">Reviewing 0.1% of transactions catches 74% of fraud at 99% precision</div>
+        <ul><li>9 SQL queries, including LAG to find fraud bursts and running totals over 283,726 transactions.</li><li>Time-based split. Random Forest compared with Isolation Forest (no labels), plus a cost-optimal alert threshold.</li></ul>
+        <div class="links"><a href="projects/card-fraud/">Live dashboard →</a><a href="https://github.com/anand-ayush14/anand-ayush14.github.io/tree/main/projects/card-fraud">SQL &amp; code →</a></div>
+        <div class="tags"><span>SQL</span><span>Random Forest</span><span>Isolation Forest</span><span>PR-AUC</span></div>
+      </article>
+      <article class="card">
+        <div class="kicker">Customer analytics · Retention</div>
+        <h3>Credit card customer attrition</h3>
+        <p>Who is about to close their card, what are the warning signs, and does a retention campaign pay for itself?</p>
+        <div class="metric">Top 20% of scores contains 97% of leavers; targeted offer beats blanket</div>
+        <ul><li>10 SQL queries (NTILE, RANK, CTEs) on 10,127 card holders.</li><li>Gradient Boosting churn model, K-Means segments and a campaign profit curve.</li></ul>
+        <div class="links"><a href="projects/card-attrition/">Live dashboard →</a><a href="https://github.com/anand-ayush14/anand-ayush14.github.io/tree/main/projects/card-attrition">SQL &amp; code →</a></div>
+        <div class="tags"><span>SQL</span><span>Gradient Boosting</span><span>K-Means</span><span>Campaign ROI</span></div>
+      </article>
+    </div>
+  </section>
 
   <section id="work">
     <div class="sec-head"><h2>Selected work</h2><code>4 projects</code></div>
