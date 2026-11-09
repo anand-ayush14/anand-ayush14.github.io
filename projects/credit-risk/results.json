@@ -1,0 +1,305 @@
+{
+  "kpis": {
+    "customers": 30000,
+    "default_rate": 22.1,
+    "avg_limit": 167484,
+    "auc": 0.766,
+    "flag_share": 20.0,
+    "caught": 49.7,
+    "precision": 54.9
+  },
+  "sql": {
+    "Q1": [
+      {
+        "customers": 30000,
+        "defaulters": 6636,
+        "default_rate_pct": 22.12,
+        "avg_credit_limit": 167484.0
+      }
+    ],
+    "Q2": [
+      {
+        "repayment_status": "Paid on time",
+        "customers": 23182,
+        "default_rate_pct": 13.8
+      },
+      {
+        "repayment_status": "1 month late",
+        "customers": 3688,
+        "default_rate_pct": 33.9
+      },
+      {
+        "repayment_status": "2 months late",
+        "customers": 2667,
+        "default_rate_pct": 69.1
+      },
+      {
+        "repayment_status": "3+ months late",
+        "customers": 463,
+        "default_rate_pct": 71.9
+      }
+    ],
+    "Q3": [
+      {
+        "limit_band": "1. < 50K",
+        "customers": 4311,
+        "default_rate_pct": 36.1
+      },
+      {
+        "limit_band": "2. 50K-100K",
+        "customers": 7139,
+        "default_rate_pct": 26.0
+      },
+      {
+        "limit_band": "3. 100K-200K",
+        "customers": 7400,
+        "default_rate_pct": 20.8
+      },
+      {
+        "limit_band": "4. 200K-400K",
+        "customers": 9075,
+        "default_rate_pct": 15.9
+      },
+      {
+        "limit_band": "5. 400K+",
+        "customers": 2075,
+        "default_rate_pct": 12.0
+      }
+    ],
+    "Q4": [
+      {
+        "utilisation_band": "1. Under 30%",
+        "customers": 14792,
+        "default_rate_pct": 18.3
+      },
+      {
+        "utilisation_band": "2. 30-70%",
+        "customers": 5686,
+        "default_rate_pct": 24.0
+      },
+      {
+        "utilisation_band": "3. 70-100%",
+        "customers": 7399,
+        "default_rate_pct": 26.0
+      },
+      {
+        "utilisation_band": "4. Over limit",
+        "customers": 2123,
+        "default_rate_pct": 30.1
+      }
+    ],
+    "Q5": [
+      {
+        "age_band": "1. Under 25",
+        "customers": 2685,
+        "default_rate_pct": 27.2,
+        "share_of_portfolio_pct": 8.9
+      },
+      {
+        "age_band": "2. 25-34",
+        "customers": 13011,
+        "default_rate_pct": 20.3,
+        "share_of_portfolio_pct": 43.4
+      },
+      {
+        "age_band": "3. 35-44",
+        "customers": 9018,
+        "default_rate_pct": 21.9,
+        "share_of_portfolio_pct": 30.1
+      },
+      {
+        "age_band": "4. 45-54",
+        "customers": 4233,
+        "default_rate_pct": 23.9,
+        "share_of_portfolio_pct": 14.1
+      },
+      {
+        "age_band": "5. 55+",
+        "customers": 1053,
+        "default_rate_pct": 26.7,
+        "share_of_portfolio_pct": 3.5
+      }
+    ],
+    "Q6": [
+      {
+        "education_level": "High school",
+        "customers": 4917,
+        "default_rate_pct": 25.2
+      },
+      {
+        "education_level": "University",
+        "customers": 14030,
+        "default_rate_pct": 23.7
+      },
+      {
+        "education_level": "Graduate school",
+        "customers": 10585,
+        "default_rate_pct": 19.2
+      },
+      {
+        "education_level": "Other/unknown",
+        "customers": 468,
+        "default_rate_pct": 7.1
+      }
+    ],
+    "Q7": [
+      {
+        "zero_payment_customers": 3495,
+        "default_rate_pct": 39.8
+      }
+    ],
+    "Q8": [
+      {
+        "id": 27499,
+        "limit_bal": 500000.0,
+        "exposure": 613860.0,
+        "months_late": 2,
+        "exposure_rank": 1
+      },
+      {
+        "id": 28625,
+        "limit_bal": 340000.0,
+        "exposure": 589654.0,
+        "months_late": 5,
+        "exposure_rank": 2
+      },
+      {
+        "id": 5925,
+        "limit_bal": 340000.0,
+        "exposure": 581775.0,
+        "months_late": 4,
+        "exposure_rank": 3
+      },
+      {
+        "id": 10769,
+        "limit_bal": 500000.0,
+        "exposure": 564757.0,
+        "months_late": 2,
+        "exposure_rank": 4
+      },
+      {
+        "id": 23378,
+        "limit_bal": 550000.0,
+        "exposure": 548551.0,
+        "months_late": 2,
+        "exposure_rank": 5
+      },
+      {
+        "id": 20893,
+        "limit_bal": 550000.0,
+        "exposure": 539092.0,
+        "months_late": 2,
+        "exposure_rank": 6
+      },
+      {
+        "id": 4324,
+        "limit_bal": 500000.0,
+        "exposure": 533142.0,
+        "months_late": 2,
+        "exposure_rank": 7
+      },
+      {
+        "id": 26087,
+        "limit_bal": 320000.0,
+        "exposure": 520651.0,
+        "months_late": 2,
+        "exposure_rank": 8
+      },
+      {
+        "id": 11856,
+        "limit_bal": 420000.0,
+        "exposure": 520453.0,
+        "months_late": 2,
+        "exposure_rank": 9
+      },
+      {
+        "id": 27264,
+        "limit_bal": 470000.0,
+        "exposure": 519901.0,
+        "months_late": 2,
+        "exposure_rank": 10
+      }
+    ]
+  },
+  "models": [
+    {
+      "model": "Logistic Regression",
+      "cv_auc": 0.747,
+      "cv_std": 0.004,
+      "test_auc": 0.732
+    },
+    {
+      "model": "Random Forest",
+      "cv_auc": 0.78,
+      "cv_std": 0.007,
+      "test_auc": 0.767
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_auc": 0.78,
+      "cv_std": 0.005,
+      "test_auc": 0.766
+    }
+  ],
+  "pay_ratio": [
+    {
+      "band": "<5%",
+      "customers": 9714,
+      "default_rate": 27.2
+    },
+    {
+      "band": "5-20%",
+      "customers": 7607,
+      "default_rate": 24.5
+    },
+    {
+      "band": "20-50%",
+      "customers": 3381,
+      "default_rate": 15.6
+    },
+    {
+      "band": "50-100%",
+      "customers": 6360,
+      "default_rate": 18.6
+    },
+    {
+      "band": "100%+",
+      "customers": 2938,
+      "default_rate": 14.5
+    }
+  ],
+  "coefs": {
+    "late_count_6m": 0.402,
+    "months_late_max": 0.373,
+    "pay_0": 0.21,
+    "limit_bal": -0.204,
+    "age": 0.084,
+    "utilisation": -0.044
+  },
+  "tiers": [
+    {
+      "tier": "Low",
+      "customers": 4500,
+      "default_rate": 11.3,
+      "share": 60.0
+    },
+    {
+      "tier": "Medium",
+      "customers": 1500,
+      "default_rate": 21.7,
+      "share": 20.0
+    },
+    {
+      "tier": "High",
+      "customers": 750,
+      "default_rate": 40.0,
+      "share": 10.0
+    },
+    {
+      "tier": "Very high",
+      "customers": 750,
+      "default_rate": 69.9,
+      "share": 10.0
+    }
+  ]
+}
