@@ -1,0 +1,22 @@
+{
+ "A":{
+  "name":"Priya (demo)",
+  "renewals":{
+   "platinum":"2026-12",
+   "gold":"2027-03"
+  }
+ },
+ "B":{
+  "name":"Rahul (demo)",
+  "renewals":{
+   "gold":"2027-01"
+  }
+ },
+ "C":{
+  "name":"Sam (demo)",
+  "renewals":{
+   "delta_reserve":"2027-02",
+   "platinum":"2026-12"
+  }
+ }
+}
