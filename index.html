@@ -200,7 +200,7 @@ footer { padding: 28px 0 40px; font-family: var(--mono); font-size: 12px; color:
   </div>
 
   <section id="analytics">
-    <div class="sec-head"><h2>Data analytics projects</h2><code>SQL · Python · ML · dashboards</code></div>
+    <div class="sec-head"><h2>Data analytics projects</h2><code>6 projects · SQL · Python · ML · AI agents</code></div>
     <div class="grid2">
       <article class="card">
         <div class="kicker">Credit risk · Card issuer</div>
@@ -228,6 +228,33 @@ footer { padding: 28px 0 40px; font-family: var(--mono); font-size: 12px; color:
         <ul><li>10 SQL queries (NTILE, RANK, CTEs) on 10,127 card holders.</li><li>Gradient Boosting churn model, K-Means segments and a campaign profit curve.</li></ul>
         <div class="links"><a href="projects/card-attrition/">Live dashboard →</a><a href="https://github.com/anand-ayush14/anand-ayush14.github.io/tree/main/projects/card-attrition">SQL &amp; code →</a></div>
         <div class="tags"><span>SQL</span><span>Gradient Boosting</span><span>K-Means</span><span>Campaign ROI</span></div>
+      </article>
+      <article class="card">
+        <div class="kicker">Customer experience · Amex vs peers</div>
+        <h3>Credit card complaint intelligence</h3>
+        <p>What do card members complain about to the US regulator, where does Amex differ from Chase, Capital One and Citi, and which problems are rising?</p>
+        <div class="metric">Amex gets 1.8× its peers' share of promotion complaints; disputes +74% YoY</div>
+        <ul><li>13 SQL queries (LAG, RANK, moving averages) on 92,757 real CFPB complaints.</li><li>Spike detector (z-score alerts) and a Gradient Boosting model, tested on a time split, that predicts which complaints need relief.</li></ul>
+        <div class="links"><a href="projects/complaint-intelligence/">Live dashboard →</a><a href="https://github.com/anand-ayush14/anand-ayush14.github.io/tree/main/projects/complaint-intelligence">SQL &amp; code →</a></div>
+        <div class="tags"><span>SQL</span><span>Anomaly alerts</span><span>Gradient Boosting</span><span>Public data</span></div>
+      </article>
+      <article class="card">
+        <div class="kicker">Commercial cards · Expense management</div>
+        <h3>Corporate card expense copilot</h3>
+        <p>Categorise company-card spend, catch split purchases and duplicates, and give managers a short, ranked review queue with reasons.</p>
+        <div class="metric">125,615 real transactions → 1% review queue; 68% accuracy categorising unseen vendors</div>
+        <ul><li>SQL policy engine (CTEs, UNION ALL, window functions) and a Benford's law forensic test.</li><li>TF-IDF + Logistic Regression vendor classifier (grouped split by vendor), plus Isolation Forest benchmarked honestly against a baseline.</li></ul>
+        <div class="links"><a href="projects/expense-copilot/">Live dashboard →</a><a href="https://github.com/anand-ayush14/anand-ayush14.github.io/tree/main/projects/expense-copilot">SQL &amp; code →</a></div>
+        <div class="tags"><span>SQL</span><span>NLP</span><span>Isolation Forest</span><span>Benford</span></div>
+      </article>
+      <article class="card">
+        <div class="kicker">Agentic AI · Card benefits</div>
+        <h3>Card benefits agent (MCP server)</h3>
+        <p>Tracks every statement credit, warns before money expires, picks the best card for a purchase and checks whether a card is worth its fee.</p>
+        <div class="metric">4 tools served over MCP + Claude tool-use agent + no-key browser demo</div>
+        <ul><li>Rules engine for monthly / quarterly / semi-annual credits on Platinum, Gold and Delta Reserve (public terms).</li><li>Synthetic demo members; the browser engine checks its results against Python.</li></ul>
+        <div class="links"><a href="projects/benefits-agent/">Live demo →</a><a href="https://github.com/anand-ayush14/anand-ayush14.github.io/tree/main/projects/benefits-agent">Code →</a></div>
+        <div class="tags"><span>MCP</span><span>LLM tool use</span><span>Python</span><span>JavaScript</span></div>
       </article>
     </div>
   </section>
