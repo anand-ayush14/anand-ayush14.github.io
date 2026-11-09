@@ -1,0 +1,52 @@
+{
+ "as_of": "2026-11-09",
+ "disclaimer": "Public benefit terms summarised from americanexpress.com coverage as of November 2026. Card terms change; check americanexpress.com before relying on them. Independent project, not affiliated with American Express.",
+ "sources": [
+  "https://www.nerdwallet.com/reviews/credit-cards/american-express-platinum",
+  "https://onemileatatime.com/news/amex-platinum-card-changes/",
+  "https://www.creditkarma.com/credit-cards/i/new-amex-platinum-benefits-guide",
+  "https://thriftytraveler.com/news/credit-card/american-express-gold-card-offer/",
+  "https://awardwallet.com/credit-cards/amex-gold-dining-credit/",
+  "https://www.nerdwallet.com/credit-cards/reviews/delta-reserve",
+  "https://thepointsparty.com/articles/delta-skymiles-reserve-amex-card-review"
+ ],
+ "cards": [
+  {
+   "id": "platinum", "name": "Platinum Card", "annual_fee": 895,
+   "earn": [{"match": ["DELTA", "UNITED", "AMERICAN AIRLINES", "JETBLUE", "ALASKA"], "label": "flights booked with the airline", "rate": 5},
+            {"match": ["AMEX TRAVEL"], "label": "prepaid hotels on Amex Travel", "rate": 5}],
+   "credits": [
+    {"id": "plat_hotel", "name": "Hotel credit (Fine Hotels + Resorts / The Hotel Collection)", "amount": 300, "period": "semiannual", "merchants": ["AMEX TRAVEL FHR", "AMEX TRAVEL THC"], "enroll": false},
+    {"id": "plat_resy", "name": "Resy dining credit", "amount": 100, "period": "quarterly", "merchants": ["RESY"], "enroll": true},
+    {"id": "plat_digital", "name": "Digital entertainment credit", "amount": 25, "period": "monthly", "merchants": ["DISNEY+", "HULU", "ESPN+", "NYTIMES", "YOUTUBE TV", "PEACOCK", "PARAMOUNT+", "WSJ"], "enroll": true},
+    {"id": "plat_lulu", "name": "lululemon credit", "amount": 75, "period": "quarterly", "merchants": ["LULULEMON"], "enroll": true},
+    {"id": "plat_uber", "name": "Uber Cash", "amount": 15, "december_amount": 35, "period": "monthly", "merchants": ["UBER"], "enroll": false},
+    {"id": "plat_uberone", "name": "Uber One membership credit", "amount": 120, "period": "annual", "merchants": ["UBER ONE"], "enroll": false},
+    {"id": "plat_airline", "name": "Airline incidental fee credit (one selected airline)", "amount": 200, "period": "annual", "merchants": ["DELTA FEE", "UNITED FEE", "AMERICAN AIRLINES FEE"], "enroll": true},
+    {"id": "plat_clear", "name": "CLEAR+ credit", "amount": 209, "period": "annual", "merchants": ["CLEAR"], "enroll": false},
+    {"id": "plat_walmart", "name": "Walmart+ membership credit", "amount": 12.95, "period": "monthly", "merchants": ["WALMART+"], "enroll": false},
+    {"id": "plat_oura", "name": "Oura Ring credit", "amount": 200, "period": "annual", "merchants": ["OURA"], "enroll": true}
+   ]
+  },
+  {
+   "id": "gold", "name": "Gold Card", "annual_fee": 325,
+   "earn": [{"match": ["RESY", "RESTAURANT", "CAFE", "DUNKIN", "GRUBHUB", "FIVE GUYS", "CHEESECAKE"], "label": "restaurants", "rate": 4},
+            {"match": ["WHOLE FOODS", "SAFEWAY", "KROGER", "TRADER JOE"], "label": "U.S. supermarkets", "rate": 4}],
+   "credits": [
+    {"id": "gold_dining", "name": "Dining credit (Grubhub, Five Guys, Cheesecake Factory, Buffalo Wild Wings, Wonder)", "amount": 10, "period": "monthly", "merchants": ["GRUBHUB", "FIVE GUYS", "CHEESECAKE", "BUFFALO WILD WINGS", "WONDER"], "enroll": true},
+    {"id": "gold_uber", "name": "Uber Cash", "amount": 10, "period": "monthly", "merchants": ["UBER"], "enroll": false},
+    {"id": "gold_resy", "name": "Resy dining credit", "amount": 50, "period": "semiannual", "merchants": ["RESY"], "enroll": true},
+    {"id": "gold_dunkin", "name": "Dunkin' credit", "amount": 7, "period": "monthly", "merchants": ["DUNKIN"], "enroll": true}
+   ]
+  },
+  {
+   "id": "delta_reserve", "name": "Delta SkyMiles Reserve Card", "annual_fee": 650,
+   "earn": [{"match": ["DELTA"], "label": "Delta purchases", "rate": 3}],
+   "credits": [
+    {"id": "dr_resy", "name": "Resy dining credit", "amount": 20, "period": "monthly", "merchants": ["RESY"], "enroll": true},
+    {"id": "dr_ride", "name": "Rideshare credit (Uber, Lyft and others)", "amount": 10, "period": "monthly", "merchants": ["UBER", "LYFT", "CURB"], "enroll": true},
+    {"id": "dr_stays", "name": "Delta Stays credit", "amount": 200, "period": "annual", "merchants": ["DELTA STAYS"], "enroll": false}
+   ]
+  }
+ ]
+}
