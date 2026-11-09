@@ -1,0 +1,636 @@
+{
+ "kpis": {
+  "customers": 10127,
+  "attrition_rate": 16.1,
+  "attrited": 1627,
+  "champion": "Gradient Boosting",
+  "champion_auc": 0.993,
+  "unknown": {
+   "education": 1519,
+   "marital_status": 749,
+   "income_category": 1112
+  },
+  "k": 3
+ },
+ "sql": {
+  "Q1": [
+   {
+    "customers": 10127,
+    "attrited": 1627,
+    "attrition_rate_pct": 16.1,
+    "avg_credit_limit": 8632.0,
+    "avg_annual_spend": 4404.0,
+    "avg_annual_txns": 64.9
+   }
+  ],
+  "Q2": [
+   {
+    "txn_band": "1. <40",
+    "customers": 1802,
+    "attrition_rate_pct": 30.1
+   },
+   {
+    "txn_band": "2. 40-59",
+    "customers": 2134,
+    "attrition_rate_pct": 39.1
+   },
+   {
+    "txn_band": "3. 60-79",
+    "customers": 3468,
+    "attrition_rate_pct": 6.2
+   },
+   {
+    "txn_band": "4. 80-99",
+    "customers": 2036,
+    "attrition_rate_pct": 1.8
+   },
+   {
+    "txn_band": "5. 100+",
+    "customers": 687,
+    "attrition_rate_pct": 0.0
+   }
+  ],
+  "Q3": [
+   {
+    "activity_trend": "1. fell >50%",
+    "customers": 1370,
+    "attrition_rate_pct": 50.9
+   },
+   {
+    "activity_trend": "2. fell 30-50%",
+    "customers": 3629,
+    "attrition_rate_pct": 14.8
+   },
+   {
+    "activity_trend": "3. fell 10-30%",
+    "customers": 3646,
+    "attrition_rate_pct": 7.8
+   },
+   {
+    "activity_trend": "4. stable / up",
+    "customers": 1482,
+    "attrition_rate_pct": 7.3
+   }
+  ],
+  "Q4": [
+   {
+    "contacts_12m": 0,
+    "customers": 399,
+    "attrition_rate_pct": 1.8
+   },
+   {
+    "contacts_12m": 1,
+    "customers": 1499,
+    "attrition_rate_pct": 7.2
+   },
+   {
+    "contacts_12m": 2,
+    "customers": 3227,
+    "attrition_rate_pct": 12.5
+   },
+   {
+    "contacts_12m": 3,
+    "customers": 3380,
+    "attrition_rate_pct": 20.1
+   },
+   {
+    "contacts_12m": 4,
+    "customers": 1392,
+    "attrition_rate_pct": 22.6
+   },
+   {
+    "contacts_12m": 5,
+    "customers": 176,
+    "attrition_rate_pct": 33.5
+   },
+   {
+    "contacts_12m": 6,
+    "customers": 54,
+    "attrition_rate_pct": 100.0
+   }
+  ],
+  "Q5": [
+   {
+    "products_held": 1,
+    "customers": 910,
+    "attrition_rate_pct": 25.6
+   },
+   {
+    "products_held": 2,
+    "customers": 1243,
+    "attrition_rate_pct": 27.8
+   },
+   {
+    "products_held": 3,
+    "customers": 2305,
+    "attrition_rate_pct": 17.4
+   },
+   {
+    "products_held": 4,
+    "customers": 1912,
+    "attrition_rate_pct": 11.8
+   },
+   {
+    "products_held": 5,
+    "customers": 1891,
+    "attrition_rate_pct": 12.0
+   },
+   {
+    "products_held": 6,
+    "customers": 1866,
+    "attrition_rate_pct": 10.5
+   }
+  ],
+  "Q6": [
+   {
+    "revolving_band": "1. $0 (pays in full / unused)",
+    "customers": 2470,
+    "attrition_rate_pct": 36.2
+   },
+   {
+    "revolving_band": "2. $1-999",
+    "customers": 1441,
+    "attrition_rate_pct": 18.6
+   },
+   {
+    "revolving_band": "3. $1,000-1,999",
+    "customers": 4544,
+    "attrition_rate_pct": 4.6
+   },
+   {
+    "revolving_band": "4. $2,000+",
+    "customers": 1672,
+    "attrition_rate_pct": 15.3
+   }
+  ],
+  "Q7": [
+   {
+    "months_inactive": 0,
+    "customers": 29,
+    "attrition_rate_pct": 51.7
+   },
+   {
+    "months_inactive": 1,
+    "customers": 2233,
+    "attrition_rate_pct": 4.5
+   },
+   {
+    "months_inactive": 2,
+    "customers": 3282,
+    "attrition_rate_pct": 15.4
+   },
+   {
+    "months_inactive": 3,
+    "customers": 3846,
+    "attrition_rate_pct": 21.5
+   },
+   {
+    "months_inactive": 4,
+    "customers": 435,
+    "attrition_rate_pct": 29.9
+   },
+   {
+    "months_inactive": 5,
+    "customers": 178,
+    "attrition_rate_pct": 18.0
+   },
+   {
+    "months_inactive": 6,
+    "customers": 124,
+    "attrition_rate_pct": 15.3
+   }
+  ],
+  "Q8": [
+   {
+    "card_category": "Blue",
+    "customers": 9436,
+    "attrited": 1519,
+    "attrition_rate_pct": 16.1,
+    "share_of_attrited_pct": 93.4
+   },
+   {
+    "card_category": "Silver",
+    "customers": 555,
+    "attrited": 82,
+    "attrition_rate_pct": 14.8,
+    "share_of_attrited_pct": 5.0
+   },
+   {
+    "card_category": "Gold",
+    "customers": 116,
+    "attrited": 21,
+    "attrition_rate_pct": 18.1,
+    "share_of_attrited_pct": 1.3
+   },
+   {
+    "card_category": "Platinum",
+    "customers": 20,
+    "attrited": 5,
+    "attrition_rate_pct": 25.0,
+    "share_of_attrited_pct": 0.3
+   }
+  ],
+  "Q9": [
+   {
+    "spend_quintile": 1,
+    "min_spend": 510,
+    "max_spend": 1914,
+    "attrition_rate_pct": 20.4,
+    "spend_lost": 548983
+   },
+   {
+    "spend_quintile": 2,
+    "min_spend": 1914,
+    "max_spend": 3193,
+    "attrition_rate_pct": 43.9,
+    "spend_lost": 2125333
+   },
+   {
+    "spend_quintile": 3,
+    "min_spend": 3193,
+    "max_spend": 4267,
+    "attrition_rate_pct": 0.8,
+    "spend_lost": 59715
+   },
+   {
+    "spend_quintile": 4,
+    "min_spend": 4267,
+    "max_spend": 4926,
+    "attrition_rate_pct": 2.2,
+    "spend_lost": 214122
+   },
+   {
+    "spend_quintile": 5,
+    "min_spend": 4926,
+    "max_spend": 18484,
+    "attrition_rate_pct": 13.0,
+    "spend_lost": 2087454
+   }
+  ],
+  "Q10": [
+   {
+    "income_category": "$120K +",
+    "customers": 727,
+    "attrition_rate_pct": 17.3,
+    "risk_rank": 1
+   },
+   {
+    "income_category": "Less than $40K",
+    "customers": 3561,
+    "attrition_rate_pct": 17.2,
+    "risk_rank": 2
+   },
+   {
+    "income_category": "Unknown",
+    "customers": 1112,
+    "attrition_rate_pct": 16.8,
+    "risk_rank": 3
+   },
+   {
+    "income_category": "$80K - $120K",
+    "customers": 1535,
+    "attrition_rate_pct": 15.8,
+    "risk_rank": 4
+   },
+   {
+    "income_category": "$40K - $60K",
+    "customers": 1790,
+    "attrition_rate_pct": 15.1,
+    "risk_rank": 5
+   },
+   {
+    "income_category": "$60K - $80K",
+    "customers": 1402,
+    "attrition_rate_pct": 13.5,
+    "risk_rank": 6
+   }
+  ]
+ },
+ "models": [
+  {
+   "model": "Logistic Regression",
+   "cv_auc": 0.934,
+   "cv_pr_auc": 0.766,
+   "test_auc": 0.93,
+   "test_pr_auc": 0.748
+  },
+  {
+   "model": "Random Forest",
+   "cv_auc": 0.991,
+   "cv_pr_auc": 0.955,
+   "test_auc": 0.989,
+   "test_pr_auc": 0.949
+  },
+  {
+   "model": "Gradient Boosting",
+   "cv_auc": 0.994,
+   "cv_pr_auc": 0.97,
+   "test_auc": 0.993,
+   "test_pr_auc": 0.967
+  }
+ ],
+ "importance": {
+  "total_trans_ct": 0.2892,
+  "total_trans_amt": 0.1422,
+  "avg_txn_value": 0.0805,
+  "products_held": 0.0391,
+  "amt_chng_q4_q1": 0.0374,
+  "revolving_bal": 0.0243,
+  "ct_chng_q4_q1": 0.0172,
+  "age": 0.0135
+ },
+ "silhouette": {
+  "3": 0.186,
+  "4": 0.155,
+  "5": 0.161,
+  "6": 0.15
+ },
+ "segments": [
+  {
+   "name": "Fading users",
+   "customers": 3960,
+   "attrition": 29.7,
+   "spend": 3264,
+   "txns": 57.7,
+   "trend": 0.65,
+   "revolving": 417,
+   "utilisation": 5.1,
+   "products": 3.9,
+   "inactive": 2.5
+  },
+  {
+   "name": "Revolvers",
+   "customers": 4855,
+   "attrition": 8.1,
+   "spend": 3362,
+   "txns": 60.9,
+   "trend": 0.76,
+   "revolving": 1707,
+   "utilisation": 48.2,
+   "products": 4.2,
+   "inactive": 2.3
+  },
+  {
+   "name": "High spenders",
+   "customers": 1312,
+   "attrition": 4.3,
+   "spend": 11698,
+   "txns": 100.9,
+   "trend": 0.72,
+   "revolving": 1397,
+   "utilisation": 18.4,
+   "products": 2.1,
+   "inactive": 2.2
+  }
+ ],
+ "campaign": {
+  "offer_cost": 50,
+  "save_rate": 0.3,
+  "years": 2,
+  "best_n": 439,
+  "best_pct": 17.3,
+  "leavers_reached": 381,
+  "leavers_reached_pct": 93.6,
+  "profit": 20089.0,
+  "spend": 21950.0,
+  "blanket_profit": -80944.0,
+  "test_customers": 2532,
+  "avg_value_leaver": 374.0
+ },
+ "profit_curve": [
+  {
+   "pct": 0.4,
+   "profit": -236.0
+  },
+  {
+   "pct": 2.4,
+   "profit": 1019.0
+  },
+  {
+   "pct": 4.4,
+   "profit": 3763.0
+  },
+  {
+   "pct": 6.5,
+   "profit": 7215.0
+  },
+  {
+   "pct": 8.5,
+   "profit": 10591.0
+  },
+  {
+   "pct": 10.5,
+   "profit": 12648.0
+  },
+  {
+   "pct": 12.6,
+   "profit": 16098.0
+  },
+  {
+   "pct": 14.6,
+   "profit": 18808.0
+  },
+  {
+   "pct": 16.6,
+   "profit": 19699.0
+  },
+  {
+   "pct": 18.7,
+   "profit": 19515.0
+  },
+  {
+   "pct": 20.7,
+   "profit": 17985.0
+  },
+  {
+   "pct": 22.7,
+   "profit": 15597.0
+  },
+  {
+   "pct": 24.8,
+   "profit": 13550.0
+  },
+  {
+   "pct": 26.8,
+   "profit": 11086.0
+  },
+  {
+   "pct": 28.8,
+   "profit": 9156.0
+  },
+  {
+   "pct": 30.9,
+   "profit": 6556.0
+  },
+  {
+   "pct": 32.9,
+   "profit": 4006.0
+  },
+  {
+   "pct": 34.9,
+   "profit": 1456.0
+  },
+  {
+   "pct": 37.0,
+   "profit": -1144.0
+  },
+  {
+   "pct": 39.0,
+   "profit": -3694.0
+  },
+  {
+   "pct": 41.0,
+   "profit": -6294.0
+  },
+  {
+   "pct": 43.0,
+   "profit": -8844.0
+  },
+  {
+   "pct": 45.1,
+   "profit": -11444.0
+  },
+  {
+   "pct": 47.1,
+   "profit": -13994.0
+  },
+  {
+   "pct": 49.2,
+   "profit": -16594.0
+  },
+  {
+   "pct": 51.2,
+   "profit": -19144.0
+  },
+  {
+   "pct": 53.2,
+   "profit": -21744.0
+  },
+  {
+   "pct": 55.3,
+   "profit": -24294.0
+  },
+  {
+   "pct": 57.3,
+   "profit": -26894.0
+  },
+  {
+   "pct": 59.3,
+   "profit": -29444.0
+  },
+  {
+   "pct": 61.4,
+   "profit": -32044.0
+  },
+  {
+   "pct": 63.4,
+   "profit": -34594.0
+  },
+  {
+   "pct": 65.4,
+   "profit": -37194.0
+  },
+  {
+   "pct": 67.5,
+   "profit": -39744.0
+  },
+  {
+   "pct": 69.5,
+   "profit": -42294.0
+  },
+  {
+   "pct": 71.5,
+   "profit": -44894.0
+  },
+  {
+   "pct": 73.5,
+   "profit": -47444.0
+  },
+  {
+   "pct": 75.6,
+   "profit": -50044.0
+  },
+  {
+   "pct": 77.6,
+   "profit": -52594.0
+  },
+  {
+   "pct": 79.7,
+   "profit": -55194.0
+  },
+  {
+   "pct": 81.7,
+   "profit": -57744.0
+  },
+  {
+   "pct": 83.7,
+   "profit": -60344.0
+  },
+  {
+   "pct": 85.7,
+   "profit": -62894.0
+  },
+  {
+   "pct": 87.8,
+   "profit": -65494.0
+  },
+  {
+   "pct": 89.8,
+   "profit": -68044.0
+  },
+  {
+   "pct": 91.9,
+   "profit": -70644.0
+  },
+  {
+   "pct": 93.9,
+   "profit": -73194.0
+  },
+  {
+   "pct": 95.9,
+   "profit": -75794.0
+  },
+  {
+   "pct": 97.9,
+   "profit": -78344.0
+  },
+  {
+   "pct": 100.0,
+   "profit": -80944.0
+  }
+ ],
+ "gains": [
+  {
+   "top_pct": 5,
+   "captured": 30.7
+  },
+  {
+   "top_pct": 10,
+   "captured": 61.7
+  },
+  {
+   "top_pct": 15,
+   "captured": 87.2
+  },
+  {
+   "top_pct": 20,
+   "captured": 97.1
+  },
+  {
+   "top_pct": 30,
+   "captured": 100.0
+  },
+  {
+   "top_pct": 40,
+   "captured": 100.0
+  },
+  {
+   "top_pct": 50,
+   "captured": 100.0
+  },
+  {
+   "top_pct": 100,
+   "captured": 100.0
+  }
+ ]
+}
