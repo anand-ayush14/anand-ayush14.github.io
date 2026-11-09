@@ -102,7 +102,7 @@ h3 { font-family: var(--display); font-weight: 700; font-size: 22px; letter-spac
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tags span { font-family: var(--mono); font-size: 12px; border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; color: var(--muted); }
 
-.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.grid2 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .card { border: 1px solid var(--line); border-radius: 14px; padding: 28px; background: var(--panel); display: flex; flex-direction: column; }
 .card .tags { margin-top: auto; }
 
@@ -165,9 +165,9 @@ footer { padding: 28px 0 40px; font-family: var(--mono); font-size: 12px; color:
 <main class="wrap">
   <header class="hero">
     <div>
-      <span class="status"><i></i>Open to AI/ML internships · remote</span>
-      <h1>I make language models run <em>where the cloud can't reach.</em></h1>
-      <p class="lede">I'm Ayush Anand, an MCA student at C-DAC Noida. I build AI systems end to end: quantized LLMs with retrieval on a Raspberry Pi, deep-learning classifiers, and real-time computer vision.</p>
+      <span class="status"><i></i>Open to internships · remote or on-site</span>
+      <h1>Hi, I'm Ayush. I build things that <em>work end to end.</em></h1>
+      <p class="lede">MCA student at C-DAC Noida. I take projects from raw data to something people can use: analysing datasets, training and testing models, and shipping apps that run even without the internet.</p>
       <div class="cta">
         <a class="btn primary" href="#work">See my projects</a>
         <a class="btn" href="https://github.com/anand-ayush14">GitHub</a>
@@ -196,7 +196,7 @@ footer { padding: 28px 0 40px; font-family: var(--mono); font-size: 12px; color:
   </div>
 
   <section id="work">
-    <div class="sec-head"><h2>Selected work</h2><code>3 projects</code></div>
+    <div class="sec-head"><h2>Selected work</h2><code>4 projects</code></div>
 
     <article class="feature">
       <div class="txt">
@@ -224,6 +224,16 @@ footer { padding: 28px 0 40px; font-family: var(--mono); font-size: 12px; color:
     </article>
 
     <div class="grid2">
+      <article class="card">
+        <div class="kicker">Data analysis · Ongoing</div>
+        <h3>Maternal health risk analysis</h3>
+        <p>Finding which factors signal a high-risk pregnancy in antenatal clinical data (MOTHER_CARE1).</p>
+        <ul>
+          <li>Exploratory data analysis and descriptive statistics to surface key risk factors.</li>
+          <li>Building and comparing classifiers to flag high-risk cases early, with care to avoid data leakage.</li>
+        </ul>
+        <div class="tags"><span>Pandas</span><span>Scikit-learn</span><span>EDA</span></div>
+      </article>
       <article class="card">
         <div class="kicker">Deep learning · Computer vision</div>
         <h3>Deepfake detection with CNNs</h3>
@@ -269,7 +279,7 @@ footer { padding: 28px 0 40px; font-family: var(--mono); font-size: 12px; color:
     <div class="contact">
       <div>
         <h2>Let's build something useful.</h2>
-        <p>I'm looking for an AI/ML internship, remote or on-site. Happy to walk you through any of my projects.</p>
+        <p>I'm open to internships, remote or on-site. Happy to walk you through any of my projects.</p>
       </div>
       <ul>
         <li><span>Email</span><a href="mailto:an.ayush014@gmail.com">an.ayush014@gmail.com</a></li>
